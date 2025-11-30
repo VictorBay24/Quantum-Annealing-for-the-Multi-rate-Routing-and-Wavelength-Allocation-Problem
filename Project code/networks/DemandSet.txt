@@ -1,0 +1,82 @@
+LargerNetwork1-demands1={('a', 'b'): 10, ('a', 'e'): 10, ('a', 'f'): 10, ('a', 'c'): 10, ('a', 'd'): 10, ('b', 'e'): 40, ('b', 'f'): 40, ('b', 'c'): 10, ('b', 'd'): 10, ('e', 'f'): 10, ('c', 'e'): 10, ('c', 'f'): 100, ('c', 'd'): 100, ('d', 'e'): 100, ('d', 'f'): 40}
+LargerNetwork1-demands2={('a', 'b'): 10, ('a', 'e'): 10, ('a', 'f'): 10, ('a', 'c'): 100, ('a', 'd'): 40, ('b', 'e'): 10, ('b', 'f'): 40, ('b', 'c'): 100, ('b', 'd'): 40, ('e', 'f'): 100, ('c', 'e'): 100, ('c', 'f'): 100, ('c', 'd'): 40, ('d', 'e'): 100, ('d', 'f'): 10}
+LargerNetwork2-demands1={('a', 'b'): 40, ('a', 'e'): 100, ('a', 'c'): 100, ('a', 'd'): 40, ('b', 'a'): 10, ('b', 'e'): 100, ('b', 'c'): 100, ('b', 'd'): 40, ('e', 'a'): 10, ('e', 'b'): 10, ('e', 'c'): 40, ('e', 'd'): 40, ('c', 'a'): 100, ('c', 'b'): 100, ('c', 'e'): 100, ('c', 'd'): 40, ('d', 'a'): 10, ('d', 'b'): 40, ('d', 'e'): 10, ('d', 'c'): 10}
+LargerNetwork2-demands2={('a', 'b'): 40, ('a', 'e'): 40, ('a', 'c'): 10, ('a', 'd'): 10, ('b', 'a'): 10, ('b', 'e'): 40, ('b', 'c'): 40, ('b', 'd'): 10, ('e', 'a'): 100, ('e', 'b'): 100, ('e', 'c'): 40, ('e', 'd'): 100, ('c', 'a'): 10, ('c', 'b'): 100, ('c', 'e'): 40, ('c', 'd'): 100, ('d', 'a'): 10, ('d', 'b'): 100, ('d', 'e'): 100, ('d', 'c'): 10}
+Poland-demands={
+    ('Bialystok', 'Bydgoszcz'): 100, ('Bydgoszcz', 'Bialystok'): 100,
+    ('Bialystok', 'Gdansk'): 100, ('Gdansk', 'Bialystok'): 100,
+    ('Bialystok', 'Katowice'): 100, ('Katowice', 'Bialystok'): 100,
+    ('Bialystok', 'Kolobrzeg'): 100, ('Kolobrzeg', 'Bialystok'): 100,
+    ('Bialystok', 'Krakow'): 10, ('Krakow', 'Bialystok'): 10,
+    ('Bialystok', 'Lodz'): 100, ('Lodz', 'Bialystok'): 100,
+    ('Bialystok', 'Poznan'): 40, ('Poznan', 'Bialystok'): 40,
+    ('Bialystok', 'Rzeszow'): 10, ('Rzeszow', 'Bialystok'): 10,
+    ('Bialystok', 'Szczecin'): 10, ('Szczecin', 'Bialystok'): 10,
+    ('Bialystok', 'Warsaw'): 100, ('Warsaw', 'Bialystok'): 100,
+    ('Bialystok', 'Wroclaw'): 10, ('Wroclaw', 'Bialystok'): 10,
+
+    ('Bydgoszcz', 'Gdansk'): 40, ('Gdansk', 'Bydgoszcz'): 40,
+    ('Bydgoszcz', 'Katowice'): 10, ('Katowice', 'Bydgoszcz'): 10,
+    ('Bydgoszcz', 'Kolobrzeg'): 100, ('Kolobrzeg', 'Bydgoszcz'): 100,
+    ('Bydgoszcz', 'Krakow'): 40, ('Krakow', 'Bydgoszcz'): 40,
+    ('Bydgoszcz', 'Lodz'): 100, ('Lodz', 'Bydgoszcz'): 100,
+    ('Bydgoszcz', 'Poznan'): 100, ('Poznan', 'Bydgoszcz'): 100,
+    ('Bydgoszcz', 'Rzeszow'): 100, ('Rzeszow', 'Bydgoszcz'): 100,
+    ('Bydgoszcz', 'Szczecin'): 40, ('Szczecin', 'Bydgoszcz'): 40,
+    ('Bydgoszcz', 'Warsaw'): 40, ('Warsaw', 'Bydgoszcz'): 40,
+    ('Bydgoszcz', 'Wroclaw'): 40, ('Wroclaw', 'Bydgoszcz'): 40,
+
+    ('Gdansk', 'Katowice'): 10, ('Katowice', 'Gdansk'): 10,
+    ('Gdansk', 'Kolobrzeg'): 100, ('Kolobrzeg', 'Gdansk'): 100,
+    ('Gdansk', 'Krakow'): 10, ('Krakow', 'Gdansk'): 10,
+    ('Gdansk', 'Lodz'): 40, ('Lodz', 'Gdansk'): 40,
+    ('Gdansk', 'Poznan'): 40, ('Poznan', 'Gdansk'): 40,
+    ('Gdansk', 'Rzeszow'): 10, ('Rzeszow', 'Gdansk'): 10,
+    ('Gdansk', 'Szczecin'): 100, ('Szczecin', 'Gdansk'): 100,
+    ('Gdansk', 'Warsaw'): 40, ('Warsaw', 'Gdansk'): 40,
+    ('Gdansk', 'Wroclaw'): 10, ('Wroclaw', 'Gdansk'): 10,
+
+    ('Katowice', 'Krakow'): 40, ('Krakow', 'Katowice'): 40,
+    ('Katowice', 'Kolobrzeg'): 40, ('Kolobrzeg', 'Katowice'): 40,
+    ('Katowice', 'Lodz'): 10, ('Lodz', 'Katowice'): 10,
+    ('Katowice', 'Poznan'): 100, ('Poznan', 'Katowice'): 100,
+    ('Katowice', 'Rzeszow'): 40, ('Rzeszow', 'Katowice'): 40,
+    ('Katowice', 'Szczecin'): 10, ('Szczecin', 'Katowice'): 10,
+    ('Katowice', 'Warsaw'): 10, ('Warsaw', 'Katowice'): 10,
+    ('Katowice', 'Wroclaw'): 100, ('Wroclaw', 'Katowice'): 100,
+
+    ('Kolobrzeg', 'Krakow'): 100, ('Krakow', 'Kolobrzeg'): 100,
+    ('Kolobrzeg', 'Lodz'): 40, ('Lodz', 'Kolobrzeg'): 40,
+    ('Kolobrzeg', 'Poznan'): 100, ('Poznan', 'Kolobrzeg'): 100,
+    ('Kolobrzeg', 'Rzeszow'): 100, ('Rzeszow', 'Kolobrzeg'): 100,
+    ('Kolobrzeg', 'Szczecin'): 100, ('Szczecin', 'Kolobrzeg'): 100,
+    ('Kolobrzeg', 'Warsaw'): 40, ('Warsaw', 'Kolobrzeg'): 40,
+    ('Kolobrzeg', 'Wroclaw'): 40, ('Wroclaw', 'Kolobrzeg'): 40,
+
+    ('Krakow', 'Lodz'): 10, ('Lodz', 'Krakow'): 10,
+    ('Krakow', 'Poznan'): 40, ('Poznan', 'Krakow'): 40,
+    ('Krakow', 'Rzeszow'): 40, ('Rzeszow', 'Krakow'): 40,
+    ('Krakow', 'Szczecin'): 10, ('Szczecin', 'Krakow'): 10,
+    ('Krakow', 'Warsaw'): 40, ('Warsaw', 'Krakow'): 40,
+    ('Krakow', 'Wroclaw'): 40, ('Wroclaw', 'Krakow'): 40,
+
+    ('Lodz', 'Poznan'): 10, ('Poznan', 'Lodz'): 10,
+    ('Lodz', 'Rzeszow'): 40, ('Rzeszow', 'Lodz'): 40,
+    ('Lodz', 'Szczecin'): 100, ('Szczecin', 'Lodz'): 100,
+    ('Lodz', 'Warsaw'): 10, ('Warsaw', 'Lodz'): 10,
+    ('Lodz', 'Wroclaw'): 10, ('Wroclaw', 'Lodz'): 10,
+
+    ('Poznan', 'Rzeszow'): 100, ('Rzeszow', 'Poznan'): 100,
+    ('Poznan', 'Szczecin'): 100, ('Szczecin', 'Poznan'): 100,
+    ('Poznan', 'Warsaw'): 10, ('Warsaw', 'Poznan'): 10,
+    ('Poznan', 'Wroclaw'): 40, ('Wroclaw', 'Poznan'): 40,
+
+    ('Rzeszow', 'Szczecin'): 100, ('Szczecin', 'Rzeszow'): 100,
+    ('Rzeszow', 'Warsaw'): 100, ('Warsaw', 'Rzeszow'): 100,
+    ('Rzeszow', 'Wroclaw'): 10, ('Wroclaw', 'Rzeszow'): 10,
+
+    ('Szczecin', 'Warsaw'): 100, ('Warsaw', 'Szczecin'): 100,
+    ('Szczecin', 'Wroclaw'): 100, ('Wroclaw', 'Szczecin'): 100,
+
+    ('Warsaw', 'Wroclaw'): 10, ('Wroclaw', 'Warsaw'): 10
+}
